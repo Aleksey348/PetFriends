@@ -1,0 +1,8 @@
+pm.test("Сохраненяем номер телефона", function () {
+    var jsonData = JSON.parse(responseBody)
+    pm.collectionVariables.set("phone_1", jsonData.phone)
+});
+pm.test("Сохраненяем номер телефона", function () {
+    var jsonData = JSON.parse(responseBody)
+    pm.collectionVariables.set("phone_1", jsonData.phone)
+});
